@@ -7,6 +7,7 @@ This repository contains the full `Agencia Marketing` workspace plus the website
 - Root: strategy, audits, prompts, assets, and working documents from `Agencia Marketing`
 - `outputmarketing/`: cloned website code imported from `angeljnt/outputmarketing`
 - `skills/anti-ai-prose/`: vendored local writing skill with references and agent config
+- `skills/upwork-proposal-generator/`: fixed-structure proposal skill with a growing knowledge base for Vanessa and the agency
 
 ## Notes
 
