@@ -1,0 +1,11 @@
+Scrape target: https://outputmarketing.lovable.app
+Attempted at: 2026-04-02 (America/Caracas)
+Result: FAILED in this sandbox runtime.
+
+Observed errors:
+- curl: (6) Could not resolve host: outputmarketing.lovable.app
+- curl to direct IP also failed: curl: (7) Failed to connect to 1.1.1.1:443
+- dig/nslookup to public resolvers failed with: isc_socket_bind: Operation not permitted
+
+Interpretation:
+- Outbound network is restricted in this environment, so no live website scrape can be completed here.

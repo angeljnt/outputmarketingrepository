@@ -1,0 +1,23 @@
+{
+  "target": "https://outputmarketing.lovable.app/",
+  "timestamp_utc": "2026-04-02T20:25:07Z",
+  "output_root": "/Users/angeljnt/Agencia Marketing/outputmarketing-scrape-20260402-162444",
+  "fetched_url_count": 45,
+  "saved_file_count": 43,
+  "error_count": 2,
+  "max_urls": 5000,
+  "errors": [
+    {
+      "url": "https://fonts.googleapis.com",
+      "referrer": "https://outputmarketing.lovable.app/",
+      "kind": "asset",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://fonts.gstatic.com",
+      "referrer": "https://outputmarketing.lovable.app/",
+      "kind": "asset",
+      "error": "HTTP 404"
+    }
+  ]
+}

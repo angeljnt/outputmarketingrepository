@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 11% 97%;
+    --foreground: 0 0% 7%;
+
+    --card: 60 7% 95%;
+    --card-foreground: 0 0% 7%;
+
+    --popover: 60 11% 97%;
+    --popover-foreground: 0 0% 7%;
+
+    --primary: 0 0% 7%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 60 7% 95%;
+    --secondary-foreground: 0 0% 7%;
+
+    --muted: 60 7% 95%;
+    --muted-foreground: 0 0% 33%;
+
+    --accent-foreground: 0 0% 7%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 72% 36%;
+
+    --border: 60 5% 89%;
+    --input: 60 5% 89%;
+    --ring: 0 0% 7%;
+
+    --radius: 0.5rem;
+
+    --dark-bg: 0 0% 6%;
+    --dark-text: 60 11% 93%;
+    --dark-muted: 53 4% 58%;
+
+    --surface: 60 7% 95%;
+    --surface-alt: 60 14% 95%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased text-body;
+  }
+
+  h1 {
+    font-optical-sizing: auto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+
+  :focus-visible {
+    outline: 2px solid #D4A853;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-14 md:py-20;
+  }
+
+  .container-default {
+    @apply max-w-5xl mx-auto px-6;
+  }
+
+  .container-wide {
+    @apply max-w-6xl mx-auto px-6;
+  }
+
+  .container-narrow {
+    @apply max-w-3xl mx-auto px-6;
+  }
+
+  .overline {
+    @apply text-micro font-semibold tracking-[0.1em] uppercase text-muted-foreground;
+  }
+
+  .text-body-lg {
+    @apply text-lg font-normal leading-relaxed;
+  }
+
+  .text-caption {
+    @apply text-small font-normal text-muted-foreground;
+  }
+
+  .dark-section {
+    @apply bg-dark text-dark-text;
+  }
+}
