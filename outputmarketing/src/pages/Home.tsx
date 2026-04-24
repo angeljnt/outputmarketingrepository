@@ -57,7 +57,7 @@ const faqs: { q: string; a: React.ReactNode }[] = [
   { q: "What happens if the pilot doesn't work out?", a: <>We part ways. <strong>No pressure, no awkward conversation.</strong> The pilot exists precisely so neither of us has to make a long-term commitment before we know it's the right fit.</> },
   { q: "How fast can we start?", a: "Usually within a week of the first call. We don't have an onboarding queue." },
   { q: "Who actually does the work?", a: <>Vanessa and Angel. <strong>Not a team of juniors supervised by someone you met once.</strong> <strong>You'll have both of our contact info from day one.</strong></> },
-  { q: "Do you only work with SaaS companies?", a: <>Yes. <strong>B2B SaaS is the whole focus.</strong> Every piece of copy we write, every SEO keyword we target, every LinkedIn post we ghost assumes a B2B SaaS buyer. That specificity is the reason it works.</> },
+  { q: "Do you only work with SaaS companies?", a: <>The <strong>core public offer is built for B2B SaaS</strong>. That's still the main focus. We also take on a <strong>small number of agency partners</strong> through custom white-label scopes when the fit is strong, but we do not lead the business with that offer.</> },
   { q: "All your case studies are from Archive. Should I be concerned?", a: "No. We chose to go deep with one client rather than shallow with ten. Four different campaigns, different channels, different goals, all from the same relationship. That's what it looks like when an agency actually commits to a client's growth. You'll get the same." },
 ];
 
@@ -66,7 +66,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>Output Marketing — B2B SaaS Marketing Agency</title>
-        <meta name="description" content="Pipeline from content. Founder LinkedIn ghostwriting, content marketing, and SEO for B2B SaaS companies. 30-day pilot, no retainer." />
+        <meta name="description" content="Pipeline from content. Founder LinkedIn ghostwriting, content marketing, and SEO for B2B SaaS companies. Start with a 30-day pilot, then scale month-to-month." />
       </Helmet>
 
       {/* HERO */}
@@ -79,10 +79,10 @@ const Home = () => {
                 <span className="block">Built for B2B SaaS founders and their teams.</span>
               </h1>
               <p className="text-body-lg text-muted-foreground mb-6">
-                Founder LinkedIn ghostwriting, content marketing, and SEO. No paid ads. No retainer.
+                Founder LinkedIn ghostwriting, content marketing, and SEO. No paid ads. Start with a 30-day pilot.
               </p>
               <CTAButton to="/contact" className="mb-3">Start my <strong>30-day pilot</strong> →</CTAButton>
-              <p className="text-caption"><strong>No retainer commitment. No long contracts.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
+              <p className="text-caption"><strong>Pilot first. Month-to-month if we continue.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
               <Link to="/work" className="text-sm text-muted-foreground hover:text-accent transition-colors mt-2 inline-block">
                 See what the output looks like →
               </Link>
@@ -113,7 +113,7 @@ const Home = () => {
           </div>
           <div className="mt-6 text-center space-y-1">
             <p className="text-small text-muted-foreground">Archive Radar launch: <strong>2.45%</strong> engagement rate · <strong>7 brands</strong> to waitlist</p>
-            <p className="text-small text-muted-foreground">B2B SaaS influencer campaign: <strong>855,000 impressions</strong> · <strong>3.40%</strong> engagement</p>
+            <p className="text-small text-muted-foreground">B2B SaaS campaign execution: <strong>855,000 impressions</strong> · <strong>3.40%</strong> engagement</p>
           </div>
         </div>
       </SectionWrapper>
@@ -123,7 +123,7 @@ const Home = () => {
         <div className="container-narrow">
           <h2 className="text-h2 mb-8">The real problem isn't your product.</h2>
           <div className="space-y-6 text-body-lg text-dark-muted">
-            <p>You're spending on content. You're spending on influencers. But when you pull the metrics, the investment doesn't justify the return. If there's even any return.</p>
+            <p>You're spending on content. You're shipping launches. You're trying to stay visible. But when you pull the metrics, the investment doesn't justify the return. If there's even any return.</p>
             <p>Meanwhile your competitor, the one with the worse product and half your budget, is getting all the engagement. Their content is everywhere. Their name comes up in every conversation.</p>
             <p>That's not a product problem. That's a marketing problem.</p>
           </div>
@@ -203,7 +203,7 @@ const Home = () => {
           </div>
 
           <p className="text-body text-muted-foreground text-left mt-8">
-            Need a content audit, a technical SEO review, or pSEO for your product? We do those too.{" "}
+            Need a content audit, a technical SEO review, pSEO for your product, or white-label support for your agency? We do those too.{" "}
             <Link to="/pricing" className="font-medium text-foreground hover:text-accent transition-colors">See pricing →</Link>
           </p>
         </div>
@@ -234,7 +234,7 @@ const Home = () => {
             <div className="group p-6 border border-neutral-200 hover:bg-accent hover:border-accent transition-colors duration-300">
               <p className="overline mb-3 group-hover:text-[#111111] transition-colors duration-300">Step 2</p>
               <h3 className="text-h3 mb-3 group-hover:text-[#111111]">The Strategy</h3>
-              <p className="text-body text-muted-foreground group-hover:text-[#111111] transition-colors duration-300">If we continue, we build the full program: content calendar, creator roster, or both. Strategy first, execution second. No guessing.</p>
+              <p className="text-body text-muted-foreground group-hover:text-[#111111] transition-colors duration-300">If we continue, we build the full program: content calendar, SEO priorities, distribution plan, and reporting cadence. Strategy first, execution second. No guessing.</p>
             </div>
             <div className="group p-6 border border-neutral-200 hover:bg-accent hover:border-accent transition-colors duration-300">
               <p className="overline mb-3 group-hover:text-[#111111] transition-colors duration-300">Step 3</p>
@@ -274,8 +274,8 @@ const Home = () => {
             <div>
               <h2 className="text-h2 mb-6">Why Vanessa.</h2>
               <div className="space-y-4 text-body text-muted-foreground mb-8">
-                <p>Before Output Marketing, Vanessa was Influencer Marketing Manager at Fireflies.ai, where she ran a B2B SaaS influencer campaign for their Series A product push: 39 creators, 855,000 impressions, 3.40% engagement. Before that, Marketing Manager at Archive, a B2B SaaS platform for DTC brands.</p>
-                <p>She's been on the client side. She knows what it feels like to hire an agency that doesn't understand your product, your sales cycle, or your buyers. She built influencer programs from scratch, managed creator rosters, launched products, and ran the full content machine.</p>
+                <p>Before Output Marketing, Vanessa was Influencer Marketing Manager at Fireflies.ai, where she ran a B2B SaaS campaign for their Series A product push: 39 creators, 855,000 impressions, 3.40% engagement. Before that, Marketing Manager at Archive, a B2B SaaS platform for DTC brands.</p>
+                <p>She's been on the client side. She knows what it feels like to hire an agency that doesn't understand your product, your sales cycle, or your buyers. She has run partner and creator campaigns, launched products, and operated the full content machine.</p>
                 <p>The <strong>Webby Award</strong> and the <strong>Cannes Lions shortlist</strong> came from that work.</p>
                 <p className="text-caption">IE Business School. CDMP certified.</p>
               </div>
@@ -308,9 +308,9 @@ const Home = () => {
         <div className="container-narrow text-center">
           <h2 className="text-h2 mb-6">Start with <strong>30 days</strong>.</h2>
           <p className="text-body-lg text-dark-muted mb-8"><strong>$1,500 to $2,000</strong>. Full audit of your current presence. A strategic roadmap. Two to three weeks of live execution so you can see exactly what working with us looks like.</p>
-          <p className="text-body text-dark-muted mb-8"><strong>No retainer. No contract.</strong> No commitment beyond the month.</p>
+          <p className="text-body text-dark-muted mb-8"><strong>No annual contract.</strong> No commitment beyond the pilot.</p>
           <CTAButton to="/contact" variant="primary-inverted" className="mb-4">Start my <strong>30-day pilot</strong> →</CTAButton>
-          <p className="text-sm text-dark-muted mt-3"><strong>No retainer. No contract.</strong> <strong>We reply within 24 hours.</strong></p>
+          <p className="text-sm text-dark-muted mt-3"><strong>Pilot first. Month-to-month if we continue.</strong> <strong>We reply within 24 hours.</strong></p>
           <Link to="/pricing" className="text-sm text-dark-muted hover:text-accent transition-colors mt-2 inline-block">See full pricing →</Link>
         </div>
       </section>

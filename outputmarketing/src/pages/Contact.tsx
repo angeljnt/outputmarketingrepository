@@ -41,7 +41,7 @@ const Contact = () => {
       <SectionWrapper>
         <div className="container-narrow">
           <h1 className="text-display mb-4">Let's talk.</h1>
-          <p className="text-body-lg text-muted-foreground mb-10">You're a B2B SaaS company that needs marketing that ships results. Two ways to start:</p>
+          <p className="text-body-lg text-muted-foreground mb-10">You're a B2B SaaS team that needs a sharper content engine, or an agency partner that needs execution capacity. Two ways to start:</p>
 
           {submitted ? (
             <div className="bg-surface border border-border p-8 text-center">
@@ -116,7 +116,7 @@ const Contact = () => {
                     />
                   </div>
                   <CTAButton type="submit">Start my{"\u00A0"}<strong>30-day pilot</strong> →</CTAButton>
-                  <p className="text-caption"><strong>No retainer. No contract.</strong> <strong>We reply within 24 hours.</strong></p>
+                  <p className="text-caption"><strong>Pilot first. Month-to-month if we continue.</strong> <strong>We reply within 24 hours.</strong></p>
                 </form>
               </div>
 
@@ -127,6 +127,7 @@ const Contact = () => {
                 <div className="mt-8 pt-6 border-t border-border">
                   <p className="text-caption text-muted-foreground mb-2">Or email directly:</p>
                   <a href="mailto:vanessa@output-marketing.com" className="text-sm font-medium text-foreground hover:text-accent transition-colors">vanessa@output-marketing.com</a>
+                  <p className="text-caption text-muted-foreground mt-4">Need white-label support? Mention it in the form and we'll tell you quickly if the fit is real.</p>
                 </div>
               </div>
             </div>
