@@ -2,7 +2,7 @@
 
 ## Services
 
-We help lean marketing teams get more done without building a full in-house department.
+We help lean B2B SaaS teams get more done without building a full in-house department.
 
 Most companies do not need a giant agency. They need a team that can plug into the work, understand the business fast, and execute across content, social, SEO, reporting, and launches without creating more overhead.
 
@@ -22,16 +22,24 @@ That is where we fit.
 
 ### Best-Fit Clients
 
+Primary:
+
 - Growth-stage B2B SaaS companies
-- Boutique agencies that need white-label execution
-- Service businesses with active marketing and lean teams
-- Selected DTC brands that need content and social support
+- AI SaaS companies
+- Revenue, sales, customer-facing, workflow, ops, data, infrastructure, security, and compliance software companies
+
+Secondary:
+
+- Boutique agencies that need white-label execution capacity
+- B2B service businesses with active marketing motion
+- Selected EdTech or adjacent companies with strong subject-matter content needs
+- Selected DTC brands only when the real need is content and social execution, not paid or influencer-led work
 
 ## Clay Prompt
 
 Build a prospect list of companies that fit this ICP for Output Marketing.
 
-We are a marketing agency that helps lean teams execute content, SEO, social, launch marketing, reporting, and white-label marketing support without needing a full in-house department.
+We are a B2B SaaS-first marketing agency that helps lean teams execute content, SEO, founder and brand content, launch marketing, reporting, and selective white-label support without needing a full in-house department.
 
 Prioritize these company types:
 
@@ -42,11 +50,10 @@ Prioritize these company types:
 - compliance / security tech
 - workflow / operations software
 - analytics / data software
-- boutique marketing agencies
-- staffing and recruiting firms
-- education businesses
-- B2B service businesses
-- selected DTC ecommerce brands where the clear need is content and social execution
+- boutique marketing agencies as a second-wave custom offer
+- education businesses with clear content motion
+- B2B service businesses with clear content and demand-gen motion
+- selected DTC ecommerce brands only where the clear need is content and social execution
 
 Prioritize these business conditions:
 
@@ -93,6 +100,8 @@ Find decision-makers and likely buyers with these titles or similar:
 - Product Marketing Manager
 - Marketing Operations Manager
 - RevOps Manager
+- Agency Owner
+- Client Services Director
 
 For each company, return:
 
@@ -120,6 +129,8 @@ Also label each lead with the most likely service fit:
 - White-Label Agency Support
 - Creative Support
 
+If the company is an agency partner, route it to `White-Label / Capacity Track` rather than trying to force a core SaaS package fit.
+
 ## Search Logic
 
 ### Step 1: Find companies
@@ -127,16 +138,15 @@ Also label each lead with the most likely service fit:
 - Search for companies in:
   - B2B SaaS
   - AI SaaS
-  - MarTech
-  - Sales tech
-  - Compliance / security tech
-  - Workflow / operations software
-  - Analytics / data software
-  - Boutique marketing agencies
-  - Staffing and recruiting firms
-  - Education businesses
-  - B2B service businesses
-  - Selected DTC ecommerce brands
+- MarTech
+- Sales tech
+- Compliance / security tech
+- Workflow / operations software
+- Analytics / data software
+- Boutique marketing agencies
+- Education businesses
+- B2B service businesses
+- Selected DTC ecommerce brands
 
 ### Step 2: Filter by size
 

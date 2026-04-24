@@ -26,7 +26,7 @@ const ServiceOrganicSEO = () => (
         <h1 className="text-display mb-4">Traffic is not the goal. Pipeline is.</h1>
         <p className="text-body-lg text-muted-foreground mb-6">We target the keywords your buyers use when they're ready to buy, not when they're just looking around. B2B SaaS SEO built for lead quality.</p>
         <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
-        <p className="text-caption mt-3"><strong>No retainer. No long contract.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
+        <p className="text-caption mt-3"><strong>Start with the pilot.</strong> <strong>Month-to-month if we continue.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
       </div>
     </SectionWrapper>
 

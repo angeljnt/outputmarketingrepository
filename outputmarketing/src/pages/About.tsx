@@ -42,8 +42,8 @@ const About = () => {
             <div>
               <p className="overline mb-4">The founder</p>
               <div className="space-y-4 text-body text-muted-foreground">
-                <p><strong>39 creators.</strong> <strong>855,000 impressions.</strong> <strong>3.40% engagement.</strong> That was the Fireflies.ai campaign Vanessa ran as Influencer Marketing Manager before starting Output Marketing. Before that, Marketing Manager at Archive — a B2B SaaS platform for DTC brands — where the four case studies on the Work page were built.</p>
-                <p>She's been on the client side. She knows what it feels like to hire an agency that doesn't understand your product, your sales cycle, or your buyers. She built influencer programs from scratch, ran the full content machine, and managed product launches. All of it measurable.</p>
+                <p><strong>39 creators.</strong> <strong>855,000 impressions.</strong> <strong>3.40% engagement.</strong> That was the Fireflies.ai campaign Vanessa ran before starting Output Marketing. Before that, Marketing Manager at Archive — a B2B SaaS platform for DTC brands — where the four case studies on the Work page were built.</p>
+                <p>She's been on the client side. She knows what it feels like to hire an agency that doesn't understand your product, your sales cycle, or your buyers. She has run complex campaign programs, operated the content machine, and managed product launches. All of it measurable.</p>
                 <p>The <strong>Webby Award</strong> and the <strong>Cannes Lions shortlist</strong> came from that work.</p>
               </div>
               <a
@@ -68,9 +68,9 @@ const About = () => {
       {/* MINI CTA */}
       <SectionWrapper className="bg-surface-alt">
         <div className="container-narrow text-center">
-          <p className="text-body-lg mb-4">Ready to start? <strong>30-day pilot</strong>, no retainer.</p>
+          <p className="text-body-lg mb-4">Ready to start? <strong>30-day pilot</strong> first.</p>
           <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
-          <p className="text-caption mt-3"><strong>No retainer. No contract.</strong></p>
+          <p className="text-caption mt-3"><strong>No annual contract.</strong> <strong>Month-to-month if we continue.</strong></p>
         </div>
       </SectionWrapper>
 
@@ -141,6 +141,7 @@ const About = () => {
             <li>• Founders who want their personal brand and company content working together</li>
             <li>• Teams that value depth over breadth: fewer channels, better execution</li>
             <li>• Companies ready to start with a <strong>30-day pilot</strong> instead of a 6-month contract</li>
+            <li>• A small number of agency partners that need white-label execution capacity</li>
           </ul>
         </div>
       </SectionWrapper>
@@ -197,7 +198,7 @@ const About = () => {
         <div className="container-narrow text-center">
           <h2 className="text-h2 mb-6">Work with people who have done this before.</h2>
           <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
-          <p className="text-caption mt-3"><strong>No retainer. No contract.</strong> <strong>We reply within 24 hours.</strong></p>
+          <p className="text-caption mt-3"><strong>Pilot first. Month-to-month if we continue.</strong> <strong>We reply within 24 hours.</strong></p>
         </div>
       </SectionWrapper>
 

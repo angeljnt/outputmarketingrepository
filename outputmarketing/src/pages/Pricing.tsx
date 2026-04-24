@@ -61,6 +61,7 @@ const faqs: { q: string; a: React.ReactNode }[] = [
   { q: "Can I cancel anytime?", a: <>Yes. We ask for <strong>30 days notice</strong> so we can wrap ongoing work cleanly. That's it.</> },
   { q: "Do prices change after we start?", a: <>No. <strong>The rate you start at holds for as long as we work together.</strong> We don't sneak in price increases.</> },
   { q: "What if I want more than one service?", a: "We've run Foundation and Engine simultaneously for the same client, or Engine with a pSEO project running in parallel. If the scope makes sense, we build a custom structure. Start with the pilot." },
+  { q: "Do you work with agencies?", a: <>Yes, selectively. We support a <strong>small number of agency partners</strong> through custom <strong>white-label or embedded delivery scopes</strong>. It is a real offer, but not a public package tier.</> },
   { q: "Can I start with the pilot and move to a different tier than I expected?", a: "Yes. That's the point of the pilot. We both learn what's actually needed. The tier recommendation at the end is based on what we saw in the work, not what we hoped to sell." },
   { q: "Do you offer discounts for early-stage startups?", a: "The pilot is already priced to be accessible. For pre-revenue companies, we sometimes structure the pilot differently. Reach out and we'll be straight with you about whether we're the right fit." },
 ];
@@ -87,18 +88,18 @@ const Pricing = () => {
           <p className="overline text-dark-muted mb-4">The <strong>30-Day Pilot</strong></p>
           <p className="text-h2 mb-4"><strong>$1,500 to $2,000</strong></p>
           <p className="text-body-lg text-dark-muted mb-6"><strong>Full audit</strong> of your current marketing presence. A roadmap for where to go next. Two to three weeks of live execution so you can see exactly what working with us looks like.</p>
-          <p className="text-body text-dark-muted mb-6"><strong>No retainer. No contract. No commitment beyond the month.</strong></p>
+          <p className="text-body text-dark-muted mb-6"><strong>No annual contract.</strong> No commitment beyond the pilot.</p>
           <div className="text-left max-w-md mx-auto mb-8">
             <p className="text-sm font-semibold text-dark-text mb-3">What ships in <strong>30 days</strong>:</p>
             <ul className="space-y-2 text-sm text-dark-muted">
-              <li>• Current-state audit (LinkedIn, content, creator presence, or all three)</li>
+              <li>• Current-state audit (founder presence, company content, SEO surface, or all three)</li>
               <li>• Roadmap covering where to put your attention and why</li>
               <li>• 2 to 3 weeks of live work in your highest-priority channel</li>
               <li>• End-of-pilot debrief with recommendations</li>
             </ul>
           </div>
           <CTAButton to="/contact" variant="primary-inverted">Start my <strong>30-day pilot</strong> →</CTAButton>
-          <p className="text-sm text-dark-muted mt-3"><strong>No retainer. No contract.</strong> <strong>We reply within 24 hours.</strong></p>
+          <p className="text-sm text-dark-muted mt-3"><strong>Pilot first. Month-to-month if we continue.</strong> <strong>We reply within 24 hours.</strong></p>
         </div>
       </section>
 

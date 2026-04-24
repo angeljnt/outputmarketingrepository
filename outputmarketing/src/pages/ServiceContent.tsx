@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const faqs: { q: string; a: React.ReactNode }[] = [
   { q: "Who writes the content?", a: "We write it. You review and approve before anything goes live. Most clients do a light edit pass." },
   { q: "How long until content starts ranking?", a: "Realistically, 3 to 6 months for new content to rank in competitive categories. We'll set expectations on your specific targets in the strategy phase." },
-  { q: "Is LinkedIn ghostwriting included?", a: "The Engine tier includes founder LinkedIn ghostwriting. Foundation-tier clients can add it as a standalone service at +$1,500/month." },
+  { q: "Is LinkedIn ghostwriting included?", a: "Yes. Founder LinkedIn ghostwriting is built into Foundation and Engine. A second founder can be added at +$1,500/month." },
   { q: "Do we own the content?", a: "Yes. Every article, post, strategy doc, and content calendar belongs to you." },
   { q: "Can we use you alongside an internal team?", a: "Yes. Some clients use us to add capacity to an existing team. Others use us to build the system their team works from." },
 ];
@@ -25,7 +25,7 @@ const ServiceContent = () => (
         <h1 className="text-display mb-4">Content that sounds like a person wrote it. Because one did.</h1>
         <p className="text-body-lg text-muted-foreground mb-6">SEO articles, LinkedIn ghostwriting, and content strategy for B2B SaaS teams that need organic pipeline, not just word count.</p>
         <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
-        <p className="text-caption mt-3"><strong>No retainer. No long contract.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
+        <p className="text-caption mt-3"><strong>Start with the pilot.</strong> <strong>Month-to-month if we continue.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
       </div>
     </SectionWrapper>
 
@@ -114,7 +114,7 @@ const ServiceContent = () => (
       <div className="container-narrow text-center">
         <p className="text-body text-muted-foreground mb-6">Most detailed public examples are from Archive. The operating system behind them is what we apply to every engagement.</p>
         <h3 className="text-h3 mb-1">Engine tier</h3>
-        <p className="text-h2 mb-4">$3,500 to $5,000 / month</p>
+        <p className="text-h2 mb-4">Engine starts at $3,500 / month</p>
         <p className="text-body text-muted-foreground mb-6">Or start with the pilot: <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
         <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
         <p className="mt-3"><Link to="/pricing" className="text-sm text-muted-foreground hover:text-accent transition-colors">See full pricing →</Link></p>

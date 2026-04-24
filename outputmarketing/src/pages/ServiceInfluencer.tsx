@@ -30,7 +30,7 @@ const ServiceFounderLinkedIn = () => (
         <h1 className="text-display mb-4">Your buyers are on LinkedIn. You're not showing up.</h1>
         <p className="text-body-lg text-muted-foreground mb-6">We write in your voice. Three posts a week. Carousels that get read. LinkedIn that builds pipeline, not just followers.</p>
         <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
-        <p className="text-caption mt-3"><strong>No retainer. No long contract.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
+        <p className="text-caption mt-3"><strong>Start with the pilot.</strong> <strong>Month-to-month if we continue.</strong> <strong>$1,500 to $2,000</strong> for <strong>30 days</strong>.</p>
       </div>
     </SectionWrapper>
 

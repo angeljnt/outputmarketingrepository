@@ -54,7 +54,7 @@ const Work = () => {
           <p className="text-body-lg text-muted-foreground mb-2"><strong>Four campaigns.</strong> <strong>One client.</strong> <strong>One year.</strong> Different problems, same standard.</p>
           <div className="flex flex-wrap gap-4 mb-6">
             <GhostButton to="/contact">Start my <strong>30-day pilot</strong> →</GhostButton>
-            <p className="text-caption self-center"><strong>No retainer.</strong> See what we'd do for you first.</p>
+            <p className="text-caption self-center"><strong>Pilot first.</strong> See what we'd do for you before a longer engagement.</p>
           </div>
         </div>
       </SectionWrapper>
@@ -82,7 +82,7 @@ const Work = () => {
         <div className="container-narrow text-center">
           <h2 className="text-h2 mb-6">Your brand could have numbers like these.</h2>
           <CTAButton to="/contact">Start my <strong>30-day pilot</strong> →</CTAButton>
-          <p className="text-caption mt-3"><strong>No retainer. No contract.</strong> <strong>We reply within 24 hours.</strong></p>
+          <p className="text-caption mt-3"><strong>Pilot first. Month-to-month if we continue.</strong> <strong>We reply within 24 hours.</strong></p>
         </div>
       </SectionWrapper>
 
